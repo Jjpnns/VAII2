@@ -1,0 +1,68 @@
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: "Segoe Script";
+}
+.h2 {
+    font-family: "Segoe Script";
+    font-weight: bold;
+}
+.container{
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: "Segoe Script";
+}
+
+.btn-success {
+    background-color: seagreen;
+    color: white;
+    font-family: "Segoe Script";
+}
+
+.checkout-btn {
+    background-color: seagreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Segoe Script";
+}
+
+.checkout-btn:hover {
+    background-color: seagreen;
+}
+
+p {
+    text-align: center;
+}
+
+.card {
+    font-family: "Segoe Script";
+    font-weight: bold;
+    margin: 20px;
+    color: white;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+
+.btn-dokonci {
+    background-color: seagreen;
+    color: white;
+}
+
+.modal-body {
+    background-color: #fefefe;
+    margin: 20% auto 15% auto;
+    border: 3px solid #888;
+    width: 80%;
+}

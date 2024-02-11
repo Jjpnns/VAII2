@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #333333;
+    font-family: "Segoe Script";
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.otvaracieH {
+    float: right;
+    margin-top: 30px;
+    font-family: "Segoe Script";
+    font-weight: bold;
+
+}
+
+.tabulkaOH {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 350px;
+    display: flex;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: "Segoe Script";
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.kontakt {
+    margin-top: 30px;
+    font-family: "Segoe Script";
+    font-weight: lighter;
+}

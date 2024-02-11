@@ -1,0 +1,54 @@
+.card {
+    margin: 10px;
+}
+
+.card .card-img-top {
+
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+
+    aspect-ratio: 5;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-body.expanded {
+    height: auto;
+}
+
+.card .card-body.expanded img {
+    height: auto;
+}
+
+.card .card-link-green {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.card .card-title,
+.card .card-subtitle,
+.card .card-text {
+    text-align: right;
+}
+
+.card a#toggleFullText {
+    text-decoration: underline;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+

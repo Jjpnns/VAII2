@@ -1,0 +1,127 @@
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe Script";
+    flex-direction: column;
+}
+
+.form-group {
+    margin-top: 5px;
+}
+
+.textarea {
+    resize: vertical;
+    height: 100px;
+    width: 80%;
+    font-family: "Segoe Script";
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0;
+    text-align: center;
+    font-family: "Segoe Script";
+}
+
+.text-style {
+    font-family: "Segoe Script";
+}
+
+
+.btn.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.odoslat {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.odoslat:hover {
+    background-color: #4CAF50;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-header {
+    background-color:#60ce6b;
+    color: white;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+blockquote {
+    font-size: 18px;
+}
+
+
+.card-body a,
+.card-body button {
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: "Segoe Script";
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #60ce6b;
+    color: white;
+    font-family: "Segoe Script";
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#editRecenzieT {
+    width: 100%;
+}
+
+
+.hodnotenie-container {
+    margin-top: 5px;
+}
+
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+    color: #ffcc00;
+}
+
+
